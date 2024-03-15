@@ -1,0 +1,135 @@
+@font-face {
+    font-family:'KakaoRegular';
+    src:url('../font/KakaoRegular.ttf');
+}
+
+@font-face {
+    font-family: 'KakaoBold';
+    src:url('../font/KakaoBold.ttf')
+}
+
+* {
+    font-family: 'KakaoRegular' , sans-serif;
+}
+
+.first-box {
+    width: 1712px;
+    height: 126px;
+    display: flex;
+    gap: 16px;
+}
+
+.first-card {
+    width: 850px;
+    background-color: rgba(240,240,240,1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    line-height: 42px;
+    padding: 12px 64px;
+}
+
+.first-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.first:last-child {
+    margin-left: auto;
+}
+
+.data {
+    background-color: rgba(255,255,255,1);
+    border-radius: 12px;
+}
+
+.icon {
+    width: 38px;
+    height: 38px;
+    background-size: 100%;
+}
+
+.icond {
+    width: 24px;
+    height: 24px;
+    background-size: 100%;
+}
+
+.bell {
+    background-image: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/6562f7bc017800001.png');
+}
+
+.dot {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/64/64576.png');
+}
+
+.first-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.first-title:hover {            
+    cursor: pointer;
+}
+
+.dot:hover {            
+    cursor: pointer;
+}
+
+.second-box {
+    width: 1712px;
+    height: 126px;
+    display: flex;
+    gap : 16px;
+    margin: 16px 0px;
+}
+
+.second-card {
+    width: 560px;
+    background-color: rgba(240,240,240,1);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 64px;
+}
+
+.second-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.second-card:hover {            
+    cursor: pointer;
+}
+
+.baro-go {
+    font-size: 17px;
+    letter-spacing: -0.4;
+    border-radius: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.round-black {
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    display: block;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.baro-go:hover .round-black{
+    background-color: rgba(0,0,0,0.8);
+}
+
+
