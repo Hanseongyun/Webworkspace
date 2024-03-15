@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'KakaoRegular';
+    src: url('../font/KakaoRegular.ttf')
+}
+
+* {
+    font-family: 'KakaoRegular' , sans-serif;
+}
+
+.content-box {
+    
+}
+
