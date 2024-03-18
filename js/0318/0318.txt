@@ -1,0 +1,15 @@
+터미널 index.js 에서
+
+* 경로 설정 (tab 치면 자동완성)
+cd js/2 tab
+node i tab
+
+*확장 - javascript(es6) code snippets
+
+npm -v(노드패키지 매니저 버전 확인)
+npx -v(패키지 실행과 관련된)
+
+npm install -g npm --latest
+(lts로 받기 때문에 npm이 구버전 > npm은 최신버전으로 유지해야됨)
+
+* cd ../  앞으로이동
