@@ -1,0 +1,53 @@
+node.js 설치
+
+터미널 index.js(vsc 탭) 에서
+
+* 경로 설정 (tab 치면 자동완성)
+cd js/2 tab
+node i tab
+
+*확장 - javascript(es6) code snippets
+
+npm -v(노드패키지 매니저 버전 확인)
+npx -v(패키지 실행과 관련된)
+
+npm install -g npm --latest
+(lts로 받기 때문에 npm이 구버전 > npm은 최신버전으로 유지해야됨)
+
+* cd ../  앞으로이동
+터미널으로 실행 node op(tab)
+
+
+오후
+JDK 17버전으로 쓸것 (11버전 X)
+*확장 - Extension pack for java 설치
+
+프로젝트 빌드
+vsc에서 
+F1 - java: create java project - Maven - noarchtype - com.회사이름 - 프로젝트이름
+구글에 maven repository 검색후 클릭
+mysql 검색 - mysql connector - maven 코드복사후 붙여넣기
+
+
+*확장 - Gradle for java
+gradle - 위치선택 - Groovy - 프로젝트이름
+
+구글 검색 mvn repository
+lombok - project lombok - 1.18.24 - gradle or gradle(short)  // lombok 라이브러리를 쓸수있음(확장 -lombok anno~설치)
+
+vsc - app - build.gradle - dependencies에 붙여넣기
+
+src- main - java- app.java 에서 작업
+
+
+
+*spring boot 시작
+vsc - 확장 -spring boot extension pack 설치
+
+spring initializr
+
+spring boot 3.1.9
+war
+JDK17
+
+http://localhost:8080/   > whitelabel 에러가 뜨면 정상
