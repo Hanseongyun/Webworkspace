@@ -1,4 +1,57 @@
-* 연산자 파트 중요
+* 연산자 파트
 일치 비교, 불일치비교
 삼항연산자 else if
-연산자와 && 연산자의 결과는 논리 값이 아닐 수 있음
+|| 연산자와 && 연산자의 결과는 논리 값이 아닐 수 있음
+
+
+
+*오후
+f1 > spring initializr: create a gradle project > 3.1.9
+
+dependency > web, lombok
+
+http://localhost:8080  > whitelabel error
+
+Run 이후(켜져있을때) 다시 Run으로 실행하면 에러가 남
+
+고유 포트번호(바꿀수 있음)
+8080 tomcat
+3306 mysql
+5500 live server
+
+src > main > resources > application.properties >
+server.port = 4000 입력
+
+controller 폴더생성 > BasicController.java 파일생성
+
+* Controller
+@SpringBootApplication 이 있는 위치가 basic package
+
+* 구글 postman
+product > download postman
+
+http에 대한 요청을 보내고 응답을 받을 수 있음
+
+*에러 보는법(런타임에러)
+at 라인기준으로 젤 위에있는 at 바로 위에 내용 확인
+
+*구글에 http method > HTTP request methods - MDN Web Docs
+
+회원가입 - POST
+유저정보 보기 - GET
+게시물 수정 - PUT or PATCH
+
+로그인 - POST (GET방식일때 id 비밀번호가 노출되는 문제)
+게시물 좋아요
+-> 만약 해당 유저가 특정 피드에 좋아요가 이미되어 있다면 해당 좋아요 레코드를 삭제
+-> 만약 해당 유저가 특정 피드에 좋아요가 이미되어 있지 않다면 해당 좋아요 레코드를 삽입
+> 선택하기 나름(PUT)
+
+사원정보 입력
+-> 전체 사원 리스트
+> 일반적으로 POST
+
+>> 해결방법 : 분리하는 방법(인터페이스 분리법칙?)
+
+@RequestParam 예
+https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=제네시스
