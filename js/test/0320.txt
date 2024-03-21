@@ -5,3 +5,17 @@
 인덱스 길이 범위 벗어난 경우 주의해야 함 
 
 *구글에  js array method 검색
+
+qm0u0mp
+////////////////////////////////////////////////////////
+
+Query String 일반적으로 GET에서 사용
+http://localhost:4000/request-data/request-param?userId=qwer&userAge=10
+
+restAPI 방식
+
+400 - bad request 미포함 데이터타입 등등
+404 - 요청 url이 잘못됨
+405 - 요청 메소드가 잘못됨
+
+"status": 500  > 서버측 문제 터미널에 뜸
