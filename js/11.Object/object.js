@@ -26,7 +26,7 @@ const age = 40;
 const address = '서울특별시';
 
 const goJong = {
-    name,               /* <<<< name: name, 키를 지울수가 있음 */
+    name,               /* <<<< name: name, 키를 작성하지 않을 수도 있음 */
     age,
     address
 };
@@ -135,7 +135,7 @@ sunJong = {                     /* 값을 복사하는 방법1 (무식한 방법
     address: goJong.address
 };
 
-sunJong = {};                   /* 값을 복사하는 방법2 */
+sunJong = {};                   /* 값을 복사하는 방법2 (for in문) */
 for (const key in goJong) {
     sunJong[key] = goJong[key];
 }
