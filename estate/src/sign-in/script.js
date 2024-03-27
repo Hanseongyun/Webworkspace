@@ -1,5 +1,5 @@
-const ID = 'useridentity'
-const PASSWORD = 'password1'
+const ID = 'userIdentity';
+const PASSWORD = 'password1';
 
 function onSignInButtonClickHandler(event) {
     const id = document.getElementById('id').value;
@@ -15,22 +15,13 @@ function onSignInButtonClickHandler(event) {
 }
 
 function onSignUpLinkClickHandler(event) {
-    window.location.href = 'https://google.com'
+    window.location.href = '../sign-up';
 }
 const signUpLinkElement = document.getElementById('sign-up-link');
 signUpLinkElement.addEventListener('click', onSignUpLinkClickHandler);
 
 
-function onKakaoLinkClickHandler(event) {
-    window.location.href = 'https://developers.kakao.com'
-}
-const KakaoButtonElement = document.getElementById('kakao-link');
-KakaoButtonElement.addEventListener('click', onKakaoLinkClickHandler);
 
-function onNaverLinkClickHandler(event) {
-    window.location.href = 'https://developers.naver.com'
-}
-const NaverButtonElement = document.getElementById('naver-link');
-NaverButtonElement.addEventListener('click', onNaverLinkClickHandler);
+
 
 
