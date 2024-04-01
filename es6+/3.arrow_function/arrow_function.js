@@ -47,7 +47,7 @@ func = (name, tombName) => {
     };
 }
 
-func = (name, tombName) => ({        // 중괄호를 지우고 return도 지고 소괄호로 묶음(객체 리터럴)
+func = (name, tombName) => ({        // 중괄호를 지우고 return도 지우고 소괄호로 묶음(객체 리터럴)
     name,
     tombName
 });

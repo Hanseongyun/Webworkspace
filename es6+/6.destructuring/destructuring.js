@@ -32,7 +32,7 @@ let fruits = ['apple', 'banana', 'melon', 'mango', 'orange'];
 */
 
 // 만약 배열 디스트럭처링에 배열의 길이를 초과한 변수를 선언하면 초과한 범위에 대하여 해당 변수는 undefined가 됨
-const [fruit1, fruit2, fruit3, fruit4, fruit5, fruit6] = fruits;        // 왠만하면 const를 사용
+const [fruit1, fruit2, fruit3, fruit4, fruit5, fruit6] = fruits;        // 왠만하면 const 사용
 console.log(fruit1);
 console.log(fruit2);
 console.log(fruit3);

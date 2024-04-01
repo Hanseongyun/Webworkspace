@@ -52,7 +52,7 @@ console.log('========================================');
 const numbers2 = [6,7,8,9,10];
 let newNumbers = [...numbers, ...numbers2];
 console.log(newNumbers);
-newNumbers = [...numbers2, ...numbers];
+newNumbers = [...numbers2, ...numbers];     // 순서 구분
 console.log(newNumbers);
 
 console.log('========================================');
@@ -84,9 +84,9 @@ const kingInfo = {
 newKing = { ...king, ...kingInfo};
 console.log(newKing);
 
-// 추가
+// 객체 요소 추가
 newKing = {...king, birth: '1335.11.04'};
 console.log(newKing);
 
-newKing = {...king, name: '이단', birth: '1335.11.04'};     // '이성계' -> '이단' 으로 덮어씌움
+newKing = {...king, name: '이단', birth: '1335.11.04'};     // 속성의 키값이 동일하면 '이성계' -> '이단' 으로 덮어씌움
 console.log(newKing);
