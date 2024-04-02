@@ -27,5 +27,5 @@ console.log(md.default);
 /*
     - 모듈의 이름이 index 이면 해당 모듈의 폴더명으로 import 가능
 */
-import { indexExport } from './folder';     // 패키지필요
+import { indexExport } from './folder';     // 패키지필요(현재 실행하면 오류뜸)
 console.log(indexExport);
